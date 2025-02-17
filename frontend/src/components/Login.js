@@ -21,7 +21,7 @@ const Login = () => {
         try {
             console.log(user);
 
-            const response = await axios.post("http://localhost:8000/api/login", user);
+            const response = await axios.post("https://bridgeline.onrender.com/api/login", user);
             
             localStorage.setItem('emailData',user.email);
             toast.success(response.data.message);

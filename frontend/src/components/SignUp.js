@@ -27,7 +27,7 @@ const SignUp = () => {
     try {
       console.log(user);
       console.log("Frontend");
-      const response = await axios.post("http://localhost:8000/api/register", user);
+      const response = await axios.post("https://bridgeline.onrender.com/api/register", user);
       console.log(response);
       // router.push("/signin");
     } catch (error) {
