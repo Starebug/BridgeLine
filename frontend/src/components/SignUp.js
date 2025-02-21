@@ -59,7 +59,7 @@ const SignUp = () => {
         <div className="flex flex-col">
           <h2 className="merriweather-font font-bold text-[1rem]">Phone No</h2>
           <input
-            type="Number"
+            type="tel"
             className="border-2 border-zinc-300  px-[1rem] py-[0.6rem] "
             value={user.phone}
             id="phone"
